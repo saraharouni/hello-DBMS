@@ -71,7 +71,9 @@ python app.py
 
 ## **Fonctionnalités**
 
-- Page d'accueil (/) : Affiche les cinq principaux pays en termes d'émissions de carbone, avec des filtres pour afficher les détails par pays.
-- Top des régions énergétiques (/top\_energy\_regions) : Présente les cinq principales régions énergétiques mondiales avec des détails sur les différentes sources d'énergie.
+- Page d'accueil (/) : Cette page présente le projet de l'application : un calculateur d'empreinte carbone qui permet d'obtenir des informations sur l'utilisation des différentes sources d'énergie dans le monde.
+Elle contient un formulaire qui permet à l'utilisateur de sélectionner un pays, d'entrer sa consommation électrique et d'afficher les émissions annuelles de CO2 et le nombre d'arbres nécessaires pour compenser ces émissions.
+Puis un aperçu de la table qui a servi à réaliser ce projet, une section mettant en avant les 'top pays' classé par type d'énergie, et enfin, un lien vers une autre page pour filtrer les résultats par région.
+- Top des régions énergétiques (/top\_energy\_regions) : Cette page et semblable à la page d'accueil mais affiche des informations à l'échelle régionale.
 
 
