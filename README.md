@@ -2,14 +2,7 @@
 # **Projet Carbon Footprint Analyzer**
 
 Ce projet vise à fournir une analyse des émissions de carbone liées à la production d'électricité dans différents pays, ainsi que des statistiques mondiales sur les sources d'énergie.
-```bash
 
-Votre code ici
-echo "Hello, World!"
-ls -l
-```
-
-```bash
 ## **Configuration requise**
 
 - Python 3.x
@@ -22,27 +15,24 @@ ls -l
 
 - Clonez le référentiel sur votre machine locale.
 
-bash
-
-Copy code
+'''bash
 
 git clone https://github.com/votre-utilisateur/CarbonFootprintAnalyzer.git
+'''bash
 
 - Accédez au répertoire du projet.
 
-bash
-
-Copy code
+'''bash
 
 cd CarbonFootprintAnalyzer
+'''bash
 
 - Installez les dépendances.
 
-bash
-
-Copy code
+'''bash
 
 pip install -r requirements.txt
+'''bash
 
 ## **Configuration de la base de données**
 
