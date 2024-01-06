@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ## **Configuration de la base de données**
 
 - Ouvrez le fichier app.py.
-- Assurez-vous que la configuration de la base de données est correcte.
+- Modifiez le chemin d'accès à la base de données par votre chemin en local.
 
 ``` python
 
