@@ -17,57 +17,54 @@ Ce projet vise à fournir une analyse des émissions de carbone liées à la pro
 
 ```bash
 
-git clone https://github.com/votre-utilisateur/CarbonFootprintAnalyzer.git
+git clone https://github.com/saraharouni/CarbonFootprintAnalyzer.git
 ```
 
 - Accédez au répertoire du projet.
 
-'''bash
+```bash
 
 cd CarbonFootprintAnalyzer
-'''
+```
 
 - Installez les dépendances.
 
-'''bash
+```bash
 
 pip install -r requirements.txt
-'''
+```
 
 ## **Configuration de la base de données**
 
 - Ouvrez le fichier app.py.
 - Assurez-vous que la configuration de la base de données est correcte.
 
-python
-
-Copy code
+``` python
 
 app.config['SQLALCHEMY\_DATABASE\_URI'] = 'sqlite:///C:/sqlite/b3\_flask/CarbonFootprint.db'
 
 app.config['SQLALCHEMY\_TRACK\_MODIFICATIONS'] = False
+```
 
 - Initialisez la base de données.
 
-bash
-
-Copy code
+``` bash
 
 python app.py db init
 
 python app.py db migrate
 
 python app.py db upgrade
+```
 
 ## **Utilisation**
 
 - Exécutez l'application.
 
-bash
-
-Copy code
+``` bash
 
 python app.py
+```
 
 - Ouvrez votre navigateur et accédez à http://127.0.0.1:5000/.
 - Explorez les statistiques sur les émissions de carbone par pays et les principales régions énergétiques.
