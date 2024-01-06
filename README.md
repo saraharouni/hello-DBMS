@@ -2,7 +2,14 @@
 # **Projet Carbon Footprint Analyzer**
 
 Ce projet vise à fournir une analyse des émissions de carbone liées à la production d'électricité dans différents pays, ainsi que des statistiques mondiales sur les sources d'énergie.
+```bash
 
+Votre code ici
+echo "Hello, World!"
+ls -l
+```
+
+```bash
 ## **Configuration requise**
 
 - Python 3.x
