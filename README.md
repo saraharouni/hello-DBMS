@@ -15,10 +15,10 @@ Ce projet vise à fournir une analyse des émissions de carbone liées à la pro
 
 - Clonez le référentiel sur votre machine locale.
 
-'''bash
+```bash
 
 git clone https://github.com/votre-utilisateur/CarbonFootprintAnalyzer.git
-'''
+```
 
 - Accédez au répertoire du projet.
 
