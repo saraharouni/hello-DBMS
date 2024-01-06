@@ -1,0 +1,31 @@
+SELECT *
+FROM students;
+
+FROM students
+WHERE age > 20;
+
+SELECT *
+FROM students
+ORDER  BY
+CASE grade
+WHEN 'A+' THEN 0
+WHEN 'A' THEN 1
+WHEN 'B+' THEN 2
+WHEN 'B'THEN 3
+WHEN 'C+'THEN 4
+WHEN 'C' THEN 5
+END;
+
+
+SELECT *
+FROM students
+ORDER  BY
+CASE grade
+WHEN 'A+' THEN 0
+WHEN 'A' THEN 1
+WHEN 'B+' THEN 2
+WHEN 'B'THEN 3
+WHEN 'C+'THEN 4
+WHEN 'C' THEN 5
+END DESC;
+
