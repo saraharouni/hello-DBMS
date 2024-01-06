@@ -18,21 +18,21 @@ Ce projet vise à fournir une analyse des émissions de carbone liées à la pro
 '''bash
 
 git clone https://github.com/votre-utilisateur/CarbonFootprintAnalyzer.git
-'''bash
+'''
 
 - Accédez au répertoire du projet.
 
 '''bash
 
 cd CarbonFootprintAnalyzer
-'''bash
+'''
 
 - Installez les dépendances.
 
 '''bash
 
 pip install -r requirements.txt
-'''bash
+'''
 
 ## **Configuration de la base de données**
 
