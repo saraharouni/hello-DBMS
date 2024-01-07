@@ -1,5 +1,5 @@
 ##
-# **Projet Carbon Footprint **
+# **Projet Carbon Footprint**
 
 Ce projet consiste à créer une base de données SQL et une application Flask afin de pouvoir observer les émissions de carbone produites par chaque pays ou région en fonction des types d'énergies utilisés pour créer de l'électricité.
 
