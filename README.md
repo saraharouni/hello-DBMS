@@ -13,7 +13,7 @@ Ce projet consiste à créer une base de données SQL et une application Flask a
 
 ## **Installation**
 
-- Clonez le référentiel sur votre machine locale.
+- Clonez le répertoire sur votre machine locale.
 
 ```bash
 
@@ -27,7 +27,7 @@ git clone https://github.com/saraharouni/CarbonFootprintAnalyzer.git
 cd CarbonFootprintAnalyzer
 ```
 
-- Installez les dépendances.
+- Installez les librairies et modules nécessaire pour exécuter l'application.
 
 ```bash
 
@@ -66,7 +66,7 @@ python app.py db upgrade
 python app.py
 ```
 
-- Ouvrez votre navigateur et accédez à http://127.0.0.1:5000/.
+- Ouvrez votre navigateur et accédez à la page http://127.0.0.1:5000/.
 - Explorez les statistiques sur les émissions de carbone par pays et les principales régions énergétiques.
 
 ## **Fonctionnalités**
