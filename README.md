@@ -1,7 +1,7 @@
 ##
-# **Projet Carbon Footprint Analyzer**
+# **Projet Carbon Footprint **
 
-Ce projet vise à fournir une analyse des émissions de carbone liées à la production d'électricité dans différents pays, ainsi que des statistiques mondiales sur les sources d'énergie.
+Ce projet consiste à créer une base de données SQL et une application Flask afin de pouvoir observer les émissions de carbone produites par chaque pays ou région en fonction des types d'énergies utilisés pour créer de l'électricité.
 
 ## **Configuration requise**
 
